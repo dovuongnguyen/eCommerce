@@ -1,0 +1,32 @@
+(function(){Meteor.startup(function() {
+    // if (Parties.find().count() == 0) {
+    //     var parties = [{
+    //         'name': 'Dubstep-Free Zone',
+    //         'description': 'Can we please just for an evening not listen to dubstep.'
+    //     }, {
+    //         'name': 'All dubstep all the time',
+    //         'description': 'Get it on!'
+    //     }, {
+    //         'name': 'Savage lounging',
+    //         'description': 'Leisure suit required. And only fiercest manners.'
+    //     }];
+    //     for (var i = 0; i < parties.length; i++) {
+    //         Parties.insert(parties[i]);
+    //     };
+    // }
+    // if (Inventory.find().count() == 0) {
+    //     var result = HTTP.call("GET", "http://localhost:45896/api/inv",function(err, res) {
+    //         if (err) {
+    //             console.log('retring due to: ', err.message);
+    //         } else {
+    //             if (res.data) {
+    //                 for (var i = 0; i < res.data.length; i++) {
+    //                     Inventory.insert(res.data[i])
+    //                 };
+    //             }
+    //         }
+    //     });
+    // }
+});
+
+})();
